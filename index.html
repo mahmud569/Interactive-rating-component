@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+</head>
+<body>
+<main class="all">
+    <div class="card">
+        <div id="card-img">
+           
+         <span class="fa fa-star checked"></span>
+        <div class="card-info">
+          <p class="text-title"> How did we do? </p>
+          <p class="text-body"> Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!</p>
+        </div>
+        <div class="card-footer">
+        <span class="text-title"> </span>
+        
+        <div class="numbers-ratings">
+            <input type="radio" id="Btn1" name="NumbersRating" value="1" />
+            <label for="Btn1">1</label>
+            <input type="radio" id="Btn2" name="NumbersRating" value="2" />
+            <label for="Btn2">2</label>
+            <input type="radio" id="Btn3" name="NumbersRating" value="3" />
+            <label for="Btn3">3</label>
+            <input type="radio" id="Btn4" name="NumbersRating" value="4" />
+            <label for="Btn4">4</label>
+            <input type="radio" id="Btn5" name="NumbersRating" value="5" />
+            <label for="Btn5">5</label>
+          </div>
+          
+      </div>
+       <div >
+            <button type="button" class="submitBtn"  onclick="clickHandler()">SUBMIT</button>
+          </div>
+    </div>
+
+     
+
+
+      <div id="tnxCard" class="ThanksCard">
+        <img src="./illustration-thank-you.svg" alt="thanks" width="162" height="108" style="margin-top:1px ;"/>
+        <div id="RatingRev" class="RatingRev">You selected out of 5</div>
+        <div class="ThanksCardText">
+          <h1>Thank you!</h1>
+        <p >We appreciate you
+          taking the time to give a rating. If you ever need more support, don’t
+          hesitate to get in touch!</p>
+        </div>
+        
+          
+      </div>
+
+      </div>
+     
+</main>
+<script src="script.js" async></script>
+
+</body>
+</html>
+
+
+ 
